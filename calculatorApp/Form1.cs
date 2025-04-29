@@ -271,5 +271,10 @@ namespace calculatorApp
                 txtTotal.Text = txtTotal.Text.Substring(0, txtTotal.Text.Length - 1); //It means taking a part from inside a text (string).
             }
         }
+
+        private void lblHistory_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
